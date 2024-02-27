@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc3e36104d76e4d74172f2588fd64ce1",
+    "content-hash": "898f6d8053b14654cdb6771d223fada1",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -18439,6 +18439,90 @@
             "time": "2023-10-27T15:25:26+00:00"
         },
         {
+            "name": "msp/common",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magespecialist/m2-MSP_Common.git",
+                "reference": "c05b806a925e9cf56e91af3bb33e393d48f5b136"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magespecialist/m2-MSP_Common/zipball/c05b806a925e9cf56e91af3bb33e393d48f5b136",
+                "reference": "c05b806a925e9cf56e91af3bb33e393d48f5b136",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MSP\\Common\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "support": {
+                "issues": "https://github.com/magespecialist/m2-MSP_Common/issues",
+                "source": "https://github.com/magespecialist/m2-MSP_Common/tree/master"
+            },
+            "time": "2019-12-03T09:01:47+00:00"
+        },
+        {
+            "name": "msp/devtools",
+            "version": "1.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magespecialist/m2-MSP_DevTools.git",
+                "reference": "306de1b76aecd8fd66bf32139dce2c09386c472c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magespecialist/m2-MSP_DevTools/zipball/306de1b76aecd8fd66bf32139dce2c09386c472c",
+                "reference": "306de1b76aecd8fd66bf32139dce2c09386c472c",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*",
+                "msp/common": "*",
+                "php": "^7.4|^8.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MSP\\DevTools\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Riccardo Tempesta",
+                    "email": "riccardo.tempesta@magespecialist.it"
+                },
+                {
+                    "name": "Lorenzo Stramaccia",
+                    "email": "lorenzo.stramaccia@magespecialist.it"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/magespecialist/m2-MSP_DevTools/issues",
+                "source": "https://github.com/magespecialist/m2-MSP_DevTools/tree/1.2.17"
+            },
+            "time": "2023-03-15T10:33:59+00:00"
+        },
+        {
             "name": "mtdowling/jmespath.php",
             "version": "2.7.0",
             "source": {
@@ -24874,6 +24958,57 @@
                 "source": "https://github.com/Lusitanian/PHPoAuthLib/tree/master"
             },
             "time": "2018-02-14T22:37:14+00:00"
+        },
+        {
+            "name": "mage2tv/magento-cache-clean",
+            "version": "1.0.52",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mage2tv/magento-cache-clean.git",
+                "reference": "95fd510a820204f3a2dd3efb203b1740637df2b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mage2tv/magento-cache-clean/zipball/95fd510a820204f3a2dd3efb203b1740637df2b2",
+                "reference": "95fd510a820204f3a2dd3efb203b1740637df2b2",
+                "shasum": ""
+            },
+            "suggest": {
+                "magento/project-community-edition": "*"
+            },
+            "bin": [
+                "bin/cache-clean.js"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Vinai Kopp",
+                    "email": "vinai@netzarbeiter.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "A faster drop in replacement for bin/magento cache:clean with file watcher",
+            "homepage": "https://github.com/mage2tv/magento-cache-clean",
+            "keywords": [
+                "development",
+                "magento",
+                "utility"
+            ],
+            "support": {
+                "issues": "https://github.com/mage2tv/magento-cache-clean/issues",
+                "source": "https://github.com/mage2tv/magento-cache-clean/tree/1.0.52"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/vinai",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-09-22T16:21:29+00:00"
         },
         {
             "name": "magento/magento-coding-standard",
